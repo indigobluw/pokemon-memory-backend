@@ -1,0 +1,19 @@
+{
+  "name": "sti-backend",
+  "version": "1.0.0",
+  "description": "first backend application",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigobluw/sti-backend.git"
+  },
+  "author": "Therese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigobluw/sti-backend/issues"
+  },
+  "homepage": "https://github.com/indigobluw/sti-backend#readme"
+}
