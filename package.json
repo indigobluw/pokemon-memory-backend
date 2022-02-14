@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node.app.js"
   },
-  
   "author": "Therese",
   "license": "ISC",
   "dependencies": {
@@ -18,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/indigobluw/sti-backend.git"
   },
-  "engines": { 
+  "engines": {
     "node": "17.x"
   }
 }
