@@ -19,35 +19,35 @@ app.get("/game", (req, res)=>{
   headers = { http_status: 200, "cache-control": "no-cache" };
   body = [
     {
-      imgSrc: "./image/chikorita.png",
+      imgSrc: "sti-backend/image/chikorita.png",
       name: "chikorita"
   },
   { 
-      imgSrc: "./image/dragonite.png",
+      imgSrc: "sti-backend/image/dragonite.png",
       name: "dragonite"
   },
   {
-      imgSrc:"./image/eevee.png",
+      imgSrc:"sti-backend/image/eevee.png",
       name: "eevee"
   },
   {
-      imgSrc:"./image/groudon.png",
+      imgSrc:"sti-backend/image/groudon.png",
       name: "groudon"
   },
   {
-      imgSrc:"./image/gyrados.png",
+      imgSrc:"sti-backend/image/gyrados.png",
       name: "gyrados"
   },
   {
-      imgSrc:"./image/lugia.png",
+      imgSrc:"sti-backend/image/lugia.png",
       name: "lugia"
   },
   {
-      imgSrc:"./image/metagross.png",
+      imgSrc:"sti-backend/image/metagross.png",
       name: "metagross"
   },
   {
-      imgSrc:"./image/milotic.png",
+      imgSrc:"sti-backend/image/milotic.png",
       name: "milotic"
   }  
   ];
