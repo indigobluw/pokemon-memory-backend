@@ -19,35 +19,35 @@ app.get("/game", (req, res)=>{
   headers = { http_status: 200, "cache-control": "no-cache" };
   body = [
     {
-      imgSrc: "./image/chikorita.png",
+      imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
       name: "chikorita"
   },
   { 
-      imgSrc: "./image/dragonite.png",
+      imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
       name: "dragonite"
   },
   {
-      imgSrc:"./image/eevee.png",
+      imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
       name: "eevee"
   },
   {
-      imgSrc:"./image/groudon.png",
+      imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/383.png",
       name: "groudon"
   },
   {
-      imgSrc:"./image/gyrados.png",
+      imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
       name: "gyrados"
   },
   {
-      imgSrc:"./image/lugia.png",
+      imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/249.png",
       name: "lugia"
   },
   {
-      imgSrc:"./image/metagross.png",
+      imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/376.png",
       name: "metagross"
   },
   {
-      imgSrc:"./image/milotic.png",
+      imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/350.png",
       name: "milotic"
   }  
   ];
