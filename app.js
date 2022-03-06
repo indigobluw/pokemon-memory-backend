@@ -17,7 +17,7 @@ app.get("/", (req ,res)=>{
 
 app.get("/game", (req, res)=>{
   headers = { http_status: 200, "cache-control": "no-cache" };
-  body = [
+  body = JSON.stringify([
     {
       imgSrc: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/152.png",
       name: "chikorita"
@@ -50,12 +50,12 @@ app.get("/game", (req, res)=>{
       imgSrc:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/350.png",
       name: "milotic"
   }  
-  ];
+  ]);
 
   res.set("Content-Type", "application/json");
   res.status(200).send(body);
 });
 
 app.listen(PORT , ()=>{
-  console.log('STARTED LISTENING ON PORT ${PORT}')
+  console.log(`STARTED LISTENING ON PORT ${PORT}`)
 });
