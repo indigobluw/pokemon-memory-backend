@@ -1,2 +1,2 @@
 # sti-backend
-first backend app
+Backend to pokemon-memory-frontend

@@ -1,7 +1,7 @@
 {
-    "name": "sti-backend",
-    "description": "Javascript Backend",
-    "repository": "https://github.com/indigobluw/sti-backend",
+    "name": "pokemon-memory-backend",
+    "description": "pokemon-memory-backend",
+    "repository": "https://github.com/indigobluw/pokemon-memory-backend",
     "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
     "keywords": ["node", "express", "heroku"],
     "image": "heroku/nodejs"

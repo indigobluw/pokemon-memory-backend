@@ -1,21 +1,21 @@
 {
-  "name": "sti-backend",
+  "name": "pokemon-memory-backend",
   "version": "1.0.0",
-  "description": "my first backend application",
+  "description": "pokemon-memory-backend",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indigobluw/sti-backend.git"
+    "url": "git+https://github.com/indigobluw/pokemon-memory-backend.git"
   },
   "author": "Therese Lindquist",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/indigobluw/sti-backend/issues"
+    "url": "https://github.com/indigobluw/pokemon-memory-backend/issues"
   },
-  "homepage": "https://github.com/indigobluw/sti-backend#readme",
+  "homepage": "https://github.com/indigobluw/pokemon-memory-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2",
